@@ -15,10 +15,11 @@ export default function Footer(props) {
         dispatch(changeLanguage(value));
     }
     return (
-        <div className="navbar">
-            <footer className="footer">
+        <div className="navbar fixed-bottom navbar-light bg-light">
+            {/*<footer className="footer">
                 <SelectComponent label={"Footer.languageDropDown"} options={languages} selectedOption={selectedLanguage} onOptionChange={handleChange} />
-            </footer>
+            </footer> */}
+            <SelectComponent label={"Footer.languageDropDown"} options={languages} selectedOption={selectedLanguage} onOptionChange={handleChange} />
         </div>
     )
 }

@@ -11,7 +11,7 @@ export default function HomePage(props) {
             <Header />
             <div className="container-fluid">
                 <h1 className="text-center">{t("HomePage.Title")}</h1>
-                <div class="row">
+                <div className="row">
 
                     <div className="col-md-8">
                         <h3 className="text-left">{t("HomePage.Statement.Title")}</h3>

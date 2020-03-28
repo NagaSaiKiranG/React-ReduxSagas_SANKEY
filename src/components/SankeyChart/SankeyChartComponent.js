@@ -18,7 +18,7 @@ const SankeyChartComponent = (props) => {
             dispatch(setRowDataIndex(data[currentRowIndex]))
     }
     const options = {
-        tooltip: { isHtml: true, trigger: "visible" },
+        //tooltip: { isHtml: true, trigger: "visible" },
         sankey: {
             link: { color: { fill: '#d799ae' } },
             node: {

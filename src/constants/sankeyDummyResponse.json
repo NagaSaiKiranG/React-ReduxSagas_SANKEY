@@ -1,0 +1,70 @@
+{
+    "rows":[
+        {
+            "From":"Salary",
+            "To":"Mutual Funds",
+            "Money":20000,
+            "Category":"Savings"
+        },
+        {
+            "From":"Salary",
+            "To":"Super Market",
+            "Money":5000,
+            "Category":"Groceries"
+        },
+        {
+            "From":"Salary",
+            "To":"Electricity bill",
+            "Money":1000,
+            "Category":"Utilities"
+        },
+        {
+            "From":"Salary",
+            "To":"Water bill",
+            "Money":500,
+            "Category":"Utilities"
+        },
+        {
+            "From":"Salary",
+            "To":"Bike",
+            "Money":3000,
+            "Category":"Transportation"
+        },
+        {
+            "From":"Gift",
+            "To":"PF",
+            "Money":3000,
+            "Category":"Savings"
+        },
+        {
+            "From":"Gift",
+            "To":"Vegetables",
+            "Money":1500,
+            "Category":"Groceries"
+        },
+        {
+            "From":"Bonus",
+            "To":"Health Insurance",
+            "Money":20000,
+            "Category":"Insurance"
+        },
+        {
+            "From":"Bonus",
+            "To":"Car Insurance",
+            "Money":5000,
+            "Category":"Insurance"
+        },
+        {
+            "From":"Bonus",
+            "To":"Chit",
+            "Money":5000,
+            "Category":"Savings"
+        },
+        {
+            "From":"Bonus",
+            "To":"Mutual Funds",
+            "Money":5000,
+            "Category":"Savings"
+        }
+    ]
+}

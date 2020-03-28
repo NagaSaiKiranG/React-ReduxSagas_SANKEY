@@ -1,0 +1,37 @@
+{
+    "HomePage": {
+        "Title": "POC for SANKEY chart.",
+        "Statement": {
+            "Title": "Problem statement",
+            "Content": {
+                "p1":"You will create a Page which will have a header (centime logo) and a reusable and scalable chart which contains a type of data representation with inflow and outflows -> Inflow data will be your types of income, Outflow data will be types of expenditures. This diagram is usually called Sankey Diagram",
+                "p2":"This chart will have basic information like title for each node and upon hovering, user will be able to see some additional information. Upon clicking on any node, some more additional information will be shown to the user in a box to the right hand side of the chart. User can change his language and upon change, all the text should have their language changed"
+            }
+        },
+        "Technology": {
+            "Title" : "Tech stack used",
+            "Content": {
+                "p1": "React Hooks (classes are being deprecated)",
+                "p2": "Unit tests for all - Jest",
+                "p3": "Redux - for transferring the info between components",
+                "p4": "i18Next - internationalization"
+            }
+        },
+        "Link": {
+            "Home":"Click for Sankey"
+        }
+    },
+    "Sankey": {
+        "Header": "Sankey diagram",
+        "Content": "Sankey diagrams are a type of flow diagram in which the width of the arrows is proportional to the flow rate",
+        "Link": {
+            "Sankey":"Home.."
+        },
+        "info":"Info",
+        "ChartHeader":"Budget representation",
+        "Message":"Please click on any flow to get detailed explation"
+    },
+    "Footer":{
+        "languageDropDown" : "Choose Language "
+    }
+}

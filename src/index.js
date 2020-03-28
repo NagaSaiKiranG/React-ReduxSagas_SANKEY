@@ -1,12 +1,16 @@
-import React from 'react';
+import React,{Suspense} from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
+import './i18n';
 import * as serviceWorker from './serviceWorker';
-
+import store from './store';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Suspense fallback={(<div>Loading translations</div>)}>
+      <App store={store}/>
+      </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );
